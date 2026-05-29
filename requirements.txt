@@ -1,0 +1,28 @@
+# Core ML
+torch>=2.1.0
+transformers>=4.49.0
+accelerate>=0.26.0
+
+# Image
+Pillow>=10.0.0
+pydicom>=2.4.0
+
+# Data
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+pyyaml>=6.0
+
+# Text metrics
+sacrebleu>=2.3.0
+rouge-score>=0.1.2
+
+# Optional: better semantic similarity (recommended)
+bert-score>=0.3.13
+
+# Plotting
+matplotlib>=3.7.0
+
+# Notebook
+ipykernel
+tqdm

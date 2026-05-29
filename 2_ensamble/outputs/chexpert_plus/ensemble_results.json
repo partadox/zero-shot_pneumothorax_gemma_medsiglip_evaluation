@@ -1,0 +1,113 @@
+{
+  "dataset": "chexpert_plus",
+  "strategies": {
+    "MedGemma (original)": {
+      "f1": 0.6452,
+      "sensitivity": 1.0,
+      "specificity": 0.0,
+      "precision": 0.4762,
+      "accuracy": 0.4762,
+      "auroc": 0.4797,
+      "tp": 500,
+      "fp": 550,
+      "fn": 0,
+      "tn": 0
+    },
+    "MedGemma (reinterp.)": {
+      "f1": 0.3227,
+      "sensitivity": 0.202,
+      "specificity": 0.9545,
+      "precision": 0.8016,
+      "accuracy": 0.5962,
+      "auroc": 0.5814,
+      "tp": 101,
+      "fp": 25,
+      "fn": 399,
+      "tn": 525
+    },
+    "MedSigLIP": {
+      "f1": 0.3475,
+      "sensitivity": 0.246,
+      "specificity": 0.8455,
+      "precision": 0.5913,
+      "accuracy": 0.56,
+      "auroc": 0.6047,
+      "tp": 123,
+      "fp": 85,
+      "fn": 377,
+      "tn": 465
+    },
+    "Ensemble avg (50/50)": {
+      "f1": 0.3057,
+      "sensitivity": 0.188,
+      "specificity": 0.9618,
+      "precision": 0.8174,
+      "accuracy": 0.5933,
+      "auroc": 0.6477,
+      "tp": 94,
+      "fp": 21,
+      "fn": 406,
+      "tn": 529
+    },
+    "Ensemble gem-heavy (70/30)": {
+      "f1": 0.3227,
+      "sensitivity": 0.202,
+      "specificity": 0.9545,
+      "precision": 0.8016,
+      "accuracy": 0.5962,
+      "auroc": 0.6478,
+      "tp": 101,
+      "fp": 25,
+      "fn": 399,
+      "tn": 525
+    },
+    "Ensemble sip-heavy (30/70)": {
+      "f1": 0.2848,
+      "sensitivity": 0.176,
+      "specificity": 0.9455,
+      "precision": 0.7458,
+      "accuracy": 0.579,
+      "auroc": 0.6425,
+      "tp": 88,
+      "fp": 30,
+      "fn": 412,
+      "tn": 520
+    },
+    "Ensemble max-score": {
+      "f1": 0.4822,
+      "sensitivity": 0.38,
+      "specificity": 0.8218,
+      "precision": 0.6597,
+      "accuracy": 0.6114,
+      "auroc": 0.6489,
+      "tp": 190,
+      "fp": 98,
+      "fn": 310,
+      "tn": 452
+    },
+    "Ensemble AND (high prec.)": {
+      "f1": 0.1245,
+      "sensitivity": 0.068,
+      "specificity": 0.9782,
+      "precision": 0.7391,
+      "accuracy": 0.5448,
+      "auroc": null,
+      "tp": 34,
+      "fp": 12,
+      "fn": 466,
+      "tn": 538
+    },
+    "Ensemble OR (high sens.)": {
+      "f1": 0.4822,
+      "sensitivity": 0.38,
+      "specificity": 0.8218,
+      "precision": 0.6597,
+      "accuracy": 0.6114,
+      "auroc": null,
+      "tp": 190,
+      "fp": 98,
+      "fn": 310,
+      "tn": 452
+    }
+  }
+}

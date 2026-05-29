@@ -1,0 +1,46 @@
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Large data files — download separately per README
+*.jsonl
+*.csv
+*.dicom
+*.dcm
+
+# Model cache
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Outputs — kept locally, not versioned
+# (comment out lines below if you want to include result figures)
+# outputs/

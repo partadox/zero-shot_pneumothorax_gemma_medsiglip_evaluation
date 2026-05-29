@@ -1,0 +1,64 @@
+{
+  "MedGemma-1.5-4B": {
+    "n_total": 1050,
+    "n_valid": 1050,
+    "n_invalid": 0,
+    "sensitivity": 0.568,
+    "specificity": 0.8345,
+    "precision": 0.7573,
+    "f1": 0.6491,
+    "accuracy": 0.7076,
+    "auroc": 0.4389,
+    "n_pos": 500,
+    "n_neg": 550,
+    "tp": 284,
+    "tn": 459,
+    "fp": 91,
+    "fn": 216,
+    "f1_ci": [
+      0.6121399120395822,
+      0.6871768955461294
+    ],
+    "sensitivity_ci": [
+      0.5241468954625309,
+      0.612478862870355
+    ],
+    "specificity_ci": [
+      0.8038191964285714,
+      0.8621306865483876
+    ],
+    "model": "MedGemma-1.5-4B",
+    "parse_rate": 1.0
+  },
+  "MedSigLIP": {
+    "n_total": 1050,
+    "n_valid": 1050,
+    "n_invalid": 0,
+    "sensitivity": 0.478,
+    "specificity": 0.5091,
+    "precision": 0.4695,
+    "f1": 0.4737,
+    "accuracy": 0.4943,
+    "auroc": 0.4921,
+    "n_pos": 500,
+    "n_neg": 550,
+    "tp": 239,
+    "tn": 280,
+    "fp": 270,
+    "fn": 261,
+    "f1_ci": [
+      0.4331506153177177,
+      0.5099657625559836
+    ],
+    "sensitivity_ci": [
+      0.4331672376206789,
+      0.5200102040816327
+    ],
+    "specificity_ci": [
+      0.4660710190039319,
+      0.5491949853846051
+    ],
+    "model": "MedSigLIP",
+    "parse_rate": 1.0
+  }
+}

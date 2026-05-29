@@ -1,0 +1,14 @@
+{
+  "MedGemma-1.5-4B": {
+    "ece_explicit": 0.4153,
+    "brier": 0.4247,
+    "ece_logit": 0.456,
+    "n_valid": 1050
+  },
+  "MedSigLIP": {
+    "ece_explicit": 0.1573,
+    "brier": 0.2728,
+    "ece_logit": null,
+    "n_valid": 1050
+  }
+}

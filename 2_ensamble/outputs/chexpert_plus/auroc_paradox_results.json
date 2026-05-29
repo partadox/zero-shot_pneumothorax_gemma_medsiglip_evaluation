@@ -1,0 +1,17 @@
+{
+  "dataset": "chexpert_plus",
+  "MedGemma": {
+    "auroc_raw": 0.4797,
+    "auroc_reinterpreted": 0.5814,
+    "auroc_logit": 0.6395,
+    "auroc_gain": 0.1017,
+    "ece_raw": 0.4153,
+    "ece_reinterpreted": 0.2953,
+    "brier_raw": 0.4247,
+    "brier_reinterpreted": 0.3293,
+    "n_pred_changed_at_0.5": 924
+  },
+  "MedSigLIP": {
+    "auroc": 0.6047
+  }
+}
